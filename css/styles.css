@@ -25,6 +25,22 @@
   background-color: green;
   }
 
+  #myDiv {
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+    background-color: green;
+    width: 40%;
+    height: 50vh;
+    margin-top: 10%;
+  }
+
+  #myDiv p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+  }
+
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
         width: 100%; /* Full width */
